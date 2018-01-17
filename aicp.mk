@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from dumpling device
+# Inherit from cheeseburger device
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
 # Inherit some common AICP stuff.
@@ -35,6 +35,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 TARGET_VENDOR_PRODUCT_NAME := OnePlus5T
 TARGET_VENDOR_DEVICE_NAME := OnePlus5T
 
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Alex Tsanis (dragonGR), Ali B (eyosen)"
+
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus5T PRODUCT_NAME=OnePlus5T
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -43,11 +47,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 TARGET_VENDOR := oneplus
 
-# AICP Device Maintainers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Alex Tsanis (dragonGR), Ali B (eyosen)"
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
--include vendor/aicp/config/bootanimation.mk
+#-include vendor/aicp/configs/bootanimation.mk

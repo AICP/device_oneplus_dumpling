@@ -1,0 +1,26 @@
+Device configuration for OnePlus 5T
+===================================
+
+The OnePlus 5T (codenamed _"dumpling"_) is a high-end smartphone from OnePlus Ltd.
+
+OnePlus 5T aka A5010 was announced and released in November 2017.
+
+## Device specifications
+
+| Device       | OnePlus 5T (A5010)                                      |
+| -----------: | :---------------------------------------------- |
+| SoC          | Qualcomm MSM8998 Snapdragon 835                 |
+| CPU          | Quad-core 2.45GHz Kryo & quad-core 1.9GHz Kryo  |
+| GPU          | 710MHz Adreno 540                               |
+| Memory       | 6GB / 8GM RAM (LPDDR4X)                         |
+| Shipped Android version | 7.1.1                                |
+| Storage      | 64GB / 128GB (UFS 2.1 2-LANE Flash)             |
+| Battery      | Non-removable Li-Po 3300 mAh                    |
+| Dimensions   | 156.1 x 75.0 x 7.30 mm                          |
+| Display      | 2160 x 1080 px, 6.0 inches (401 PPI)            |
+| Rear camera  | 16 MPx, f/1.7, 27mm, DCAF autofocus + 20 MPx, f/1.7, 27mm, PDAF autofocus |
+| Front camera | 16 MPx, f/2.0, 20mm                             |
+
+## Device picture
+
+![OnePlus 5T](http://image01.oneplus.cn/shop/201711/28/1079/a847f0f7effe8485abc518614e53b03f.jpg "OnePlus 5T in red")
