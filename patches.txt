@@ -10,3 +10,5 @@
 201367 https://review.lineageos.org lineage-sdk
 # dumpling: overlay: add lineage-sdk hardware keys overlays
 #202812 https://review.lineageos.org device/oneplus/dumpling
+# fix for ims-experiments
+58660 http://gerrit.aicp-rom.com frameworks/opt/telephony
