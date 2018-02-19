@@ -11,4 +11,8 @@
 # dumpling: overlay: add lineage-sdk hardware keys overlays
 #202812 https://review.lineageos.org device/oneplus/dumpling
 # fix for ims-experiments
-58660 http://gerrit.aicp-rom.com frameworks/opt/telephony
+#58660 http://gerrit.aicp-rom.com frameworks/opt/telephony
+# native: Wait for sf to init fully before starting hwcomposer
+206452 https://review.lineageos.org frameworks/native
+# surfaceflinger: set a prop when initialization is complete
+203295 https://review.lineageos.org device/oneplus/msm8998-common
