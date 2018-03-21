@@ -9,5 +9,3 @@
 203295 https://review.lineageos.org device/oneplus/msm8998-common
 # Bluetooth: Enable HFP WBS feature
 207705 https://review.lineageos.org device/oneplus/dumpling
-# Camera: Expose Aux camera to apps present in the whitelist
-63677 http://gerrit.aicp-rom.com frameworks/base
