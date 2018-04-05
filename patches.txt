@@ -3,9 +3,5 @@
 #
 # Camed HAL extension: Added support in HIDL for Extended FD
 206129 https://review.lineageos.org hardware/interfaces
-# native: Wait for sf to init fully before starting hwcomposer
-206452 https://review.lineageos.org frameworks/native
-# surfaceflinger: set a prop when initialization is complete
-203295 https://review.lineageos.org device/oneplus/msm8998-common
 # Bluetooth: Enable HFP WBS feature
 207705 https://review.lineageos.org device/oneplus/dumpling
