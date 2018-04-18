@@ -1,7 +1,3 @@
 # We cant wait for all the patches to be merged,
 # so we pull the patches from gerrit.
 #
-# Camed HAL extension: Added support in HIDL for Extended FD
-206129 https://review.lineageos.org hardware/interfaces
-# Bluetooth: Enable HFP WBS feature
-207705 https://review.lineageos.org device/oneplus/dumpling
