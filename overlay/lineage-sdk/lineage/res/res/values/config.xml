@@ -47,7 +47,4 @@
 
   <!-- Whether device has screen with higher aspect ratio -->
   <bool name="config_haveHigherAspectRatioScreen">true</bool>
-
-  <!-- Device screen aspect ratio value -->
-  <item name="config_screenAspectRatio" format="float" type="dimen">2.1</item>
 </resources>
