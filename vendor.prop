@@ -1,7 +1,0 @@
-# Hardware Info
-ro.device.chipset=Qualcomm MSM8998 Snapdragon 835
-ro.device.cpu=Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)
-ro.device.front_cam=16MP (IMX 371), 1-micron pixels, f/2.0 1080p 30 fps video
-ro.device.gpu=Adreno 540
-ro.device.rear_cam=16MP (IMX 398), 1.12-micron pixels, f/1.7 20MP (IMX 376k), 1-micron pixels, f/1.7
-ro.device.screen_res=1080 x 2160 pixels
