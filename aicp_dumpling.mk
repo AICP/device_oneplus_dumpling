@@ -44,6 +44,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Ali B (eyosen)"
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    ro.control_privapp_permissions=log
+
 BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:8.1.0/OPM1.171019.011/04110359:user/release-keys
 
 TARGET_VENDOR := oneplus
