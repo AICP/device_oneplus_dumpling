@@ -40,4 +40,6 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">64</integer>
 
+    <!-- Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
