@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The AICP Open Source Project
+# Copyright (C) 2017 The LineageOS Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dumpling device
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
-# Inherit some common AICP stuff.
+# Inherit some common aicp stuff.
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 PRODUCT_NAME := aicp_dumpling
@@ -38,8 +38,12 @@ TARGET_VENDOR_DEVICE_NAME := OnePlus5T
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus5T PRODUCT_NAME=OnePlus5T
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus5T-user 8.1.0 OPM1.171019.011 1808081927 release-keys"
+    PRIVATE_BUILD_DESC="OnePlus5T-user 9 PKQ1.180716.001 1812232046 release-keys"
 
-BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:8.1.0/OPM1.171019.011/1808081927:user/release-keys
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Ali B (eyosen), Alex Tsanis (greekdragon)"
+
+BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:9/PKQ1.180716.001/1812232046:user/release-keys
 
 TARGET_VENDOR := oneplus
