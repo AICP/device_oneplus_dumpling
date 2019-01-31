@@ -44,6 +44,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Ali B (eyosen), Alex Tsanis (greekdragon)"
 
-BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:9/PKQ1.180716.001/1812232046:user/release-keys
+# Official
+#BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:9/PKQ1.180716.001/1812232046:user/release-keys
+# Spoofed for CTS
+BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:8.1.0/OPM1.171019.011/06131716:user/release-keys
 
 TARGET_VENDOR := oneplus
