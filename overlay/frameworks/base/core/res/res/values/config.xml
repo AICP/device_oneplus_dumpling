@@ -56,4 +56,7 @@
 
     <!-- Full screen aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+    <!-- Set AOD off by default -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
 </resources>
