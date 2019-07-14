@@ -26,6 +26,7 @@
 -include device/oneplus/msm8998-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/dumpling
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
