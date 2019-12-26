@@ -2233,7 +2233,7 @@
 
     <path name="speaker-mono">
         <!--
-        <ctl name="COMP7 Switch" value="1" /> 
+        <ctl name="COMP7 Switch" value="1" />
         <ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
         <ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
@@ -2605,6 +2605,10 @@
         <path name="headphones" />
     </path>
 
+    <path name="headphones-hifi-filter">
+        <path name="headphones" />
+    </path>
+
     <path name="headset-mic">
         <path name="adc2" />
         <ctl name="ADC2 Volume" value="12" />
@@ -2662,6 +2666,11 @@
     </path>
 
     <path name="speaker-and-headphones">
+        <path name="headphones" />
+        <path name="speaker" />
+    </path>
+
+    <path name="speaker-and-headphones-hifi-filter">
         <path name="headphones" />
         <path name="speaker" />
     </path>
