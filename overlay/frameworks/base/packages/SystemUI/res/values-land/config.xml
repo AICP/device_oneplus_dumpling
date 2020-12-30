@@ -19,11 +19,5 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Show mic or phone affordance on Keyguard -->
-    <bool name="config_keyguardShowLeftAffordance">true</bool>
-
-    <!-- Show camera affordance on Keyguard -->
-    <bool name="config_keyguardShowCameraAffordance">true</bool>
-
-    <integer name="power_menu_max_columns">4</integer>
+    <integer name="power_menu_max_columns">5</integer>
 </resources>
